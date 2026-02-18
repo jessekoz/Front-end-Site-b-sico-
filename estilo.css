@@ -8,7 +8,7 @@ background: #fdf2ff;
 
 .hero{
 
-background-image: url(../Imagens/quanto-ganha-um-desenvolvedor-front-end-tela-tablet-scaled.jpg); /*o ponto ponto barra no inicio, serve para voltar um nivel e ir para o diretorio imagens e pegar a imagem de lá.*/
+background-image: url("quanto-ganha-um-desenvolvedor-front-end-tela-tablet-scaled.jpg"); /*o ponto ponto barra no inicio, serve para voltar um nivel e ir para o diretorio imagens e pegar a imagem de lá.*/
 height: 500px;
 background-size: cover; /*Imagem irá ficar estática e não irá se mexer muito*/
 background-position: right center;
