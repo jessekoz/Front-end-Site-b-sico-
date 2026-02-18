@@ -1,0 +1,138 @@
+body{
+
+margin 0; /*Zerei a margem, por que por padrão ele coloca uma margem default*/
+font-family: Arial, Helvetica, sans-serif;
+background: #fdf2ff;
+
+}
+
+.hero{
+
+background-image: url(../Imagens/quanto-ganha-um-desenvolvedor-front-end-tela-tablet-scaled.jpg); /*o ponto ponto barra no inicio, serve para voltar um nivel e ir para o diretorio imagens e pegar a imagem de lá.*/
+height: 500px;
+background-size: cover; /*Imagem irá ficar estática e não irá se mexer muito*/
+background-position: right center;
+padding-top: 1px; /*Utilizamos esse padding como gambiarra. Não queremos que o conteúdo seja puxado pra baixo*/
+
+}
+
+.hero-content{
+
+margin: 80px auto 0 auto; /*50px pra cima(top), auto pra direita(right), 0 pra baixo(bottom) e auto pra esquerda(left).*/
+width: 80%;
+text-align: center;
+color: white;
+
+
+}
+
+.hero-content h1{
+
+font-size: 56px;
+text-shadow: 2px 2px 2px red; /*Primeiro número será o "Eixo X"(Valores positivos para direita, valores negativos para esquerda.
+Segundo valor está relacionado ao "Eixo Y"(Valores positivos pra baixo, valores negativos pra cima).
+Terceiro valor é nivel do esfumaçamento da sombra.*/
+margin-bottom: 0;
+
+
+}
+
+.hero-content p{
+
+background: rgba(0,0,0, .7); /*RGBA(Red, green, blue, alpha). Niivel de cada um. No caso do alpha é o nivel de
+transparencia. 0 é totalmente transparente e 1 é totalmente não transparente*/
+display: inline-block;
+font-size: 18px;
+padding: 16px;
+border-bottom: 2px solid white;
+
+}
+
+.hero nav ul{
+
+margin: 20px 60px 0 0; /*Crio um espaçamento dentro da "ul", para ela desencostar do topo.
+OBS:tive que colocar um padding no "hero", para a imagem não ficar muito separada do topo.(Gambiarra)*/
+text-align: right;
+
+}
+
+.hero nav li{
+
+display: inline-block;
+list-style-type: none; /*Serve para retirar as bolinhas que ficam do lado das listas*/
+border: 1px solid white;
+margin-left: 13px; /*Distanciar um pouco cada menu*/
+
+
+}
+
+.hero nav a{
+
+background-color: rgba(255,0,0, .3);
+color: white;
+padding: 10px;
+display: block; /*Quando colocamos "Padding" significa que estamos trabalhando com "Box Model".
+Devido a tag "a" ser um elemento de linha, teremos que colocar o "display block"*/
+text-decoration: none; /*Tirar o sublinhado*/
+letter-spacing: 2px; /*Distanciamento de uma letra pra outra (relacionado a fonte)*/
+
+
+}
+
+.hero nav a:hover{
+
+background-color: rgba(0,0,255, .3);
+
+}
+
+main{
+
+width: 90%;
+margin: auto; /*Ficará sempre centralizado*/
+min-width: 600px; /*Largura minima*/
+max-width: 860px; /*Largura máxima*/
+
+}
+
+
+article{
+
+background-color: white;
+padding: 16px;
+margin-bottom: 32px;
+margin-top: 32px;
+
+}
+
+article h2{
+
+border-bottom: 2px solid #ccc;
+background-color: #eee;
+padding: 10px;
+margin-top: 0;
+
+
+}
+
+.saibamais{
+
+background-color: #cdc7c3;
+padding: 8px;
+display: inline-block;
+border-radius: 6px; /*Serve para arredondar uma borda*/
+margin-left: 730px;
+
+}
+
+.rodape{
+
+color: white;
+background-color: #6b6c68;
+text-align: center;
+padding: 30px;
+text-shadow: 2px 2px 2px black;
+letter-spacing: 2px;
+
+
+}
+
